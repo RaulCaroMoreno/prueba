@@ -38,6 +38,12 @@ public class Calculadora {
         }
         return resul;
     }
-    
+      public static void main(String[] args) {
+        Calculadora instancia = new Calculadora();
+        instancia.setnumDer(3);
+        instancia.setnumIz(3);
+        instancia.setOp('-');
+        System.out.println("El numero es "+instancia.getNumDer());
+    }
     
 }
