@@ -44,9 +44,8 @@ public class Calculadora {
         instancia.setnumIz(3);
         instancia.setOp('-');
         System.out.println("El numero es "+instancia.getNumDer());
-
-
-fewfefewfwef
+ 	System.out.println("fwefwwfe");
+ 
     }
     
 }
